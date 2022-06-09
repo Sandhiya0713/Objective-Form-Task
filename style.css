@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+  }
+  .main-header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .main-header h1{
+      font-size: 38px;
+      font-weight: 800;
+      color: #1F2667;
+  }
+  .openBtn {
+    display: flex;
+    justify-content: left;
+  }
+  .openButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #189bbf;;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    right: 30px;
+    height: 47px;
+    font-size: 16px;
+  }
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 300%;
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 25%;
+    width: 50%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    background-color: #fff;
+    z-index: 9;
+    padding: 30px;
+  }
+  .formContainer {
+    max-width: 280px;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: center;
+  }
+  .save-button{
+      background-color: #189bbf;
+      border: none;
+      padding: 7px 12px;
+      height: 38px;
+      color: #fff;
+      align-items: left;
+      margin-top: 3%;
+      margin-right: 2%;
+  }
+  .close-button{
+    background-color: #fff;
+    border: none;
+    padding: 7px 12px;
+    height: 38px;
+    color: red;
+    align-items: left;
+    border: 2px solid red;
+    font-weight: 600;
+}
+  .form-input{
+    margin-left: 18%;
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 171, 171);
+  }
+  label {
+      text-align:left;
+  }
+  .formContainer input[type=text],
+  .formContainer input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border:border-box;
+    background: #eee;
+  }
+  .formContainer input[type=text]:focus,
+  .formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .formContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+  }
+  .formContainer .cancel {
+    background-color: #cc0000;
+  }
+  .formContainer .btn:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
+
+
+  /* Table */
+
+  .obj-table{
+    border: #fff;
+    width: 100%;
+  }
+
+ 
+.obj-table thead td{
+    padding: 13px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    font-size: 16px;
+    border-top: none;
+    margin-bottom: 5px;
+    /* overflow-y: scroll; */
+}
+.obj-table tr td{
+    /* overflow-y: scroll; */
+    border-bottom: 1px solid rgb(231, 229, 229);
+    width: auto;
+}
+.obj-table th{
+    font-size: 24px;
+    color: #0a4556;
+    font-weight:500;
+    padding: 16px;
+    border-top: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.obj-table th.obj-period{
+    font-size: 18px;
+    color: grey;
+    font-weight:400;
+    padding: 10px;
+    text-align: center;
+}
+/* style="color:grey;font-size:18px;" */
+.keyBtn{
+    color: #333;
+    background-color: #fff;
+    color: #1F2667;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid #1F2667;;
+    padding: 8px;
+    font-size: 14px;
+    text-decoration: none;
+}
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
